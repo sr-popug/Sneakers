@@ -1,0 +1,26 @@
+
+.container {
+    align-items: start;
+}
+.buy-cart {
+    display: block;
+    margin: 0 0 0 0;
+    width: 100vw;
+    width: 100vw;
+}
+.buy-cart > .image-cart {
+    width: 100vw;
+    height: 30vw;
+}
+.buy-cart > .image-cart > img {
+    width: 60vw;
+}
+.buy-cart > .info-cart {
+    width: 100vw;
+    margin: 0 0 0 0;
+    padding-left: 2px;
+    padding-right: 2px;
+    justify-content: start;
+    overflow-y: auto;
+
+}

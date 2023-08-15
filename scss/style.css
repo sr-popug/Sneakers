@@ -1,0 +1,68 @@
+body {
+  overflow-x: hidden;
+  width: 100vw;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Monument;
+}
+@font-face {
+  font-family: Monument;
+  src: url(../fonts/MonumentExtended-Regular.otf);
+}
+
+/* Navbar */
+nav {
+  display: grid;
+  justify-content: center;
+  width: 100vw;
+  background-color: white;
+}
+nav ul {
+  width: 50vw;
+  display: flex;
+  flex-flow: row nowrap;
+  gap: calc((1vh + 1vw) * 2);
+  padding-top: calc((1vh + 1vw) * 1);
+  padding-bottom: calc((1vh + 1vw) * 1);
+}
+nav ul li {
+  list-style: none;
+}
+nav ul li a {
+  color: black;
+  text-decoration: none;
+  font-size: calc((1vh + 1vw) * 0.6);
+}
+nav .btn {
+  font-size: calc((1vh + 1vw) * 0.6);
+  border: none;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  align-self: center;
+  gap: 5px;
+  position: absolute;
+  right: 0;
+  padding: calc((1vh + 1vw) * 1);
+}
+nav .btn img {
+  width: calc((1vh + 1vw) * 0.8);
+}
+nav .btn p {
+  bottom: -3px;
+  position: relative;
+}
+
+.gradient {
+  width: 100vw;
+  height: 88vh;
+  background-image: linear-gradient();
+  display: grid;
+  justify-content: center;
+  background: linear-gradient(209deg, #DE343D 0%, #FFB800 100%);
+  position: relative;
+}/*# sourceMappingURL=style.css.map */

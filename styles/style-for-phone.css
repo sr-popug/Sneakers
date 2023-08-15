@@ -1,0 +1,59 @@
+.phone-hidden {
+        display: none;
+    }
+.gradient {
+    height: 50vh;
+}
+.cross {
+    position: absolute;
+    left: 40%;
+    transform: translate(-50%, 25%);
+}
+.nav-input {
+    width: 50vw;  
+    animation: input-phone 1s ease;
+    outline: none;
+}
+  
+  @keyframes input-phone {
+    from {
+      width: 0;
+    }
+    to {
+      width: 50vw;
+    }
+  }
+.gradient > div {
+    position: absolute;
+    position: absolute;
+    top: 80%;
+    left: 60%;
+    border: solid 2px white;
+    cursor: pointer;
+}
+.gradient div {
+    left: 30vw;
+  }
+.big-text {
+    margin-top: 100px;
+}
+.logotypes {
+    margin-top: 100px;
+    width: 100vw;
+}
+.logotypes > .logo > a > img {
+    width: 60px;
+}
+.pre-footer {
+    height: 70vh;
+    overflow-y: hidden;
+}
+
+footer {
+    
+    display: block;
+    margin-top: 20px;
+}
+.created-by > p {
+    font-size: 2vw;
+  }

@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="stylesheet" href="styles/style-for-phone.css" media="(max-width: 600px)">
+    <link rel="stylesheet" href="styles/style-cart.css" media="(max-width: 1250px)">
+    <link rel="icon" href="photos/orche.png">
+    <title>Nike Air Force</title>
+</head>
+<body>
+    <div class="content">
+        <nav>
+            <button class="bag"><img src="photos/shopping-bag.png" alt="bag"> <p class="number">0</p></button>
+            <div class=" bag-table hidden">
+                <div class="order-div"><button class="order">Order!</button></div>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#">ALL</a></li>
+                <li><a href="#">FOOTWEAR</a></li>
+                <li><a href="#">APPAREL</a></li>
+                <li class="phone-hidden"><a href="#">BASKETBALL</a></li>
+                <li class="phone-hidden"><a href="#">SLIDES</a></li>
+            </ul>
+            <input type="text" class="nav-input hidden" placeholder="Search...">
+            <button class="btn"><img src="photos/search.png" alt="search"><p class="btn-text">SEARCH</p></button> 
+            
+        </nav
+
+
+    <main>
+        <header>
+            <div class="gradient">
+                <h1>AIR MAX</h1>
+                <img src="photos/header-cross.png" alt="Sneakers" class="cross">
+                <div><div><a  href="#slider" class="buy">BUY NOW</a></div></div>
+            </div>
+            
+        </header>
+
+
+
+        <article class="top-sell" id="slider">
+
+            <div class="head">
+                <h2>TOP SELLERS</h2>
+                <div class="btns">
+                    <button class="filter"><img src="photos/filter.png" alt="filter">FILTER</button>
+                    <button class="sorted"><img src="photos/sort.png" alt="filter">SORTED BY</button>
+                </div>
+
+                <div class="hidden-element">
+                    <div class="filter-hidden hidden">
+                        <h3>firm:</h3>
+                        <select class="select" name="hero">
+                            <option value="s1" selected>Nike</option>
+                            <option value="s2">Adidas</option>
+                            <option value="s3">New Balance</option>
+                            <option value="s3">Vans</option>
+                        </select>
+
+                        <br>
+                        <br>
+                        <hr>
+                        <br>
+                        
+                        <h3>Price:</h3>
+
+                        <div class="select-price">
+                            <p>from</p>
+                            <input type="number">
+                            <p>to</p>
+                            <input type="number">
+                            <p>$</p>
+                        </div>
+
+                        <br>
+                        <hr>
+                        <br>
+
+                        <h3>Size: <span>  *US size</span></h3>
+                        <div class="select">
+                            <input type="checkbox" class="custom-checkbox" id="size1" name="size" value="yes">
+                            <label for="size1">6</label>
+
+                            <input type="checkbox" class="custom-checkbox" id="size2" name="size" value="yes">
+                            <label for="size2">7</label>
+
+                            <input type="checkbox" class="custom-checkbox" id="size3" name="size" value="yes">
+                            <label for="size3">8</label>
+
+                            <input type="checkbox" class="custom-checkbox" id="size4" name="size" value="yes">
+                            <label for="size4">9</label>
+
+                            <input type="checkbox" class="custom-checkbox" id="size5" name="size" value="yes">
+                            <label for="size5">10</label>
+
+                            <input type="checkbox" class="custom-checkbox" id="size6" name="size" value="yes">
+                            <label for="size6">11</label>
+
+                            <input type="checkbox" class="custom-checkbox" id="size7" name="size" value="yes">
+                            <label for="size7">12</label>
+                          
+                        </div>
+                    </div>
+
+
+                    
+                    <div class="sort-hidden hidden">
+                        
+                        <div>
+                            <input class="custom-radio" type="radio" name='sort' id="sort1">
+                            <label for="sort1">Prise: from more to less</label>
+                        </div>
+                        <div>
+                            <input class="custom-radio" type="radio" name='sort' id="sort2">
+                            <label for="sort2">Prise: from less to more</label>
+                        </div>
+                        <div>
+                            <input class="custom-radio" type="radio" name='sort' id="sort3">
+                            <label for="sort3">Name</label>
+                        </div>
+                        <div>
+                            <input class="custom-radio" type="radio" name='sort' id="sort4">
+                            <label for="sort4">Size: from more to less</label>
+                        </div>
+                        <div>
+                            <input class="custom-radio" type="radio" name='sort' id="sort5">
+                            <label for="sort5">Size: from less to more</label>
+                        </div>
+                        <div>
+                            <input class="custom-radio" type="radio" name='sort' id="sort6">
+                            <label for="sort6">Firm</label>
+                        </div>
+                        
+
+                        
+                        
+                    </div>
+                </div>
+            </div>
+
+            <section class="slider">
+
+                <button class="arrow arrow-left"> <img src="photos/arrow-left.png" alt="<-"> </button> 
+                <div class="overflow-slide">
+                    <div class="slides">
+                        
+                        <div class="slide slide-orche">
+                            <div class="image"><img src="photos/orche.png" alt="Sneakers"></div>
+                                <div class="info-slide">
+                                <p class="firm">Nike</p>
+                                <p class="name">Air Force 1 Orche</p>
+                                <p class="price">214$</p>
+                                <p class="size">Sizes: 8 - 10</p>
+                            </div>
+                        </div>
+
+                        <div class="slide slide-panda">
+                            <div class="image"><img src="photos/panda.png" alt="Sneakers"></div>
+                            <div class="info-slide">
+                                <p class="firm">Nike</p>
+                                <p class="name">Air Force Panda</p>
+                                <p class="price">452$</p>
+                                <p class="size">Sizes: 6 - 10</p>
+                            </div>
+                        </div>
+
+                        <div class="slide slide-force07">
+                            <div class="image"><img src="photos/force07.png" alt="Sneakers"></div>
+                            <div class="info-slide">
+                                <p class="firm">Nike</p>
+                                <p class="name">Air Force 1 ‘07</p>
+                                <p class="price">196$</p>
+                                <p class="size">Sizes: 9 - 12</p>
+                            </div>
+                        </div>
+
+                        <div class="slide slide-munsell">
+                            <div class="image"><img src="photos/munsell.png" alt="Sneakers"></div>
+                            <div class="info-slide">
+                                <p class="firm">New Balance</p>
+                                <p class="name">327’ Munsell White</p>
+                                <p class="price">253$</p>
+                                <p class="size">Sizes: 7 - 11</p>
+                            </div>
+                        </div>
+
+                        <div class="slide slide-orche">
+                            <div class="image"><img src="photos/orche.png" alt="Sneakers"></div>
+                            <div class="info-slide">
+                                <p class="firm">Nike</p>
+                                <p class="name">Air Force 1 Orche</p>
+                                <p class="price">214$</p>
+                                <p class="size">Sizes: 8 - 10</p>
+                            </div>
+                        </div>
+
+                        <div class="slide slide-panda">
+                            <div class="image "><img src="photos/panda.png" alt="Sneakers"></div>
+                            <div class="info-slide">
+                                <p class="firm">Nike</p>
+                                <p class="name">Air Force Panda</p>
+                                <p class="price">452$</p>
+                                <p class="size">Sizes: 6 - 10</p>
+                            </div>
+                        </div>
+
+                        <div class="slide slide-force07">
+                            <div class="image"><img src="photos/force07.png" alt="Sneakers"></div>
+                            <div class="info-slide">
+                                <p class="firm">Nike</p>
+                                <p class="name">Air Force 1 ‘07</p>
+                                <p class="price">196$</p>
+                                <p class="size">Sizes: 9 - 12</p>
+                            </div>
+                        </div>
+
+                        <div class="slide slide-munsell">
+                            <div class="image"><img src="photos/munsell.png" alt="Sneakers"></div>
+                            <div class="info-slide">
+                                <p class="firm">New Balance</p>
+                                <p class="name">327’ Munsell White</p>
+                                <p class="price">253$</p>
+                                <p class="size">Sizes: 7 - 11</p>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <button class="arrow arrow-right"><img src="photos/arrow-right.png" alt="->"></button>
+            </section>
+
+            <!-- section for hidden element -->
+            <section class="hidden-buy-carts">
+
+                <div class="container  buy-cart-orche">
+                    <div class="buy-cart">
+                        <div class="image-cart orche"><img src="photos/orche-two.png" alt="Sneakers"></div>
+                        <div class="info-cart">
+                            <img class="close" src="photos/close.png" alt="">
+                            <div class="head-cart">
+                                <img src="photos/nike-text-logo.png" alt="logo">
+                                <div class="prices"><p class="price-now">$214.00</p><p class="price-earl">$262.00</p></div> 
+                            </div>
+                            <div class="name-cross">Sneakers Air Force 1 Orche</div>
+                            <div class="descript">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, temporibus. Debitis tempore soluta quisquam nostrum, exercitationem quia eos. Eos, sint?</div>
+                            <br>
+                            <div class="descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tempora atque repudiandae temporibus, quod tempore odio doloremque soluta optio eligendi error, officia architecto porro est impedit numquam et recusandae incidunt voluptates! Nam necessitatibus sit quae natus ratione provident ducimus facere.</div>
+                            <div class="select">
+                                <div class="select-size">
+                                    <p>Size</p>
+                                    <div class="radio-size">
+                                        <div class="form_radio_btn">
+                                            <input id="size1" type="radio" name="radio1" value="1" checked>
+                                            <label for="size1">8</label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="size2" type="radio" name="radio1" value="2">
+                                            <label for="size2">9</label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="size3" type="radio" name="radio1" value="3">
+                                            <label for="size3">10</label>
+                                        </div>
+                                         
+                                </div>
+                            </div>
+                                <div class="select-color">
+                                    <p>Color</p>
+                                    <div class="radio-color">
+                                        <div class="form_radio_btn">
+                                            <input id="color1" type="radio" name="radio2" value="1" checked>
+                                            <label for="color1"></label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="color2" type="radio" name="radio2" value="2">
+                                            <label for="color2"></label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="color3" type="radio" name="radio2" value="3">
+                                            <label for="color3"></label>
+                                        </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="footer-cart">
+                            <button class="in-bag">Add to bag <img src="photos/bag-cart.png" alt="bag"></button>
+                            <div class="stars">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/empty_star.png" alt="star">
+                            </div>
+                        </div>
+                        
+                        </div>     
+                    </div>
+                </div>
+
+                <div class="container  buy-cart-panda ">
+                    <div class="buy-cart">
+                        <div class="image-cart panda"><img src="photos/panda-two.png" alt="Sneakers"></div>
+                        <div class="info-cart">
+                            <img class="close" src="photos/close.png" alt="">
+                            <div class="head-cart">
+                                <img src="photos/nike-text-logo.png" alt="logo">
+                                <div class="prices"><p class="price-now">$452.00</p><p class="price-earl">$510.00</p></div> 
+                            </div>
+                            <div class="name-cross">Sneakers Air Force Panda</div>
+                            <div class="descript">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, temporibus. Debitis tempore soluta quisquam nostrum, exercitationem quia eos. Eos, sint?</div>
+                            <br>
+                            <div class="descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tempora atque repudiandae temporibus, quod tempore odio doloremque soluta optio eligendi error, officia architecto porro est impedit numquam et recusandae incidunt voluptates! Nam necessitatibus sit quae natus ratione provident ducimus facere.</div>
+                            <div class="select">
+                                <div class="select-size">
+                                    <p>Size</p>
+                                    <div class="radio-size">
+                                        <div class="form_radio_btn">
+                                            <input id="size1" type="radio" name="radio1" value="1" checked>
+                                            <label for="size1">6</label>
+                                        </div>
+                                        <div class="form_radio_btn">
+                                            <input id="size1" type="radio" name="radio1" value="1">
+                                            <label for="size1">7</label>
+                                        </div>
+
+                                        <div class="form_radio_btn">
+                                            <input id="size1" type="radio" name="radio1" value="1">
+                                            <label for="size1">8</label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="size2" type="radio" name="radio1" value="2">
+                                            <label for="size2">9</label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="size3" type="radio" name="radio1" value="3">
+                                            <label for="size3">10</label>
+                                        </div>
+                                         
+                                </div>
+                            </div>
+                                <div class="select-color">
+                                    <p>Color</p>
+                                    <div class="radio-color">
+                                        <div class="form_radio_btn">
+                                            <input id="color1" type="radio" name="radio2" value="1" checked>
+                                            <label for="color1"></label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="color2" type="radio" name="radio2" value="2">
+                                            <label for="color2""></label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="color3" type="radio" name="radio2" value="3">
+                                            <label for="color3"></label>
+                                        </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="footer-cart">
+                            <button class="in-bag">Add to bag <img src="photos/bag-cart.png" alt="bag"></button>
+                            <div class="stars">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/empty_star.png" alt="star">
+                                <img src="photos/empty_star.png" alt="star">
+                            </div>
+                        </div>
+                        
+                        </div>     
+                    </div>
+                </div>
+
+                <div class="container  buy-cart-force07 ">
+                    <div class="buy-cart">
+                        <div class="image-cart force07"><img src="photos/force07-two.png" alt="Sneakers"></div>
+                        <div class="info-cart">
+                            <img class="close" src="photos/close.png" alt="">
+                            <div class="head-cart">
+                                <img src="photos/nike-text-logo.png" alt="logo">
+                                <div class="prices"><p class="price-now">$196.00</p><p class="price-earl">$212.00</p></div> 
+                            </div>
+                            <div class="name-cross">Sneakers Air Force 1 ‘07</div>
+                            <div class="descript">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, temporibus. Debitis tempore soluta quisquam nostrum, exercitationem quia eos. Eos, sint?</div>
+                            <br>
+                            <div class="descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tempora atque repudiandae temporibus, quod tempore odio doloremque soluta optio eligendi error, officia architecto porro est impedit numquam et recusandae incidunt voluptates! Nam necessitatibus sit quae natus ratione provident ducimus facere.</div>
+                            <div class="select">
+                                <div class="select-size">
+                                    <p>Size</p>
+                                    <div class="radio-size">
+                                        <div class="form_radio_btn">
+                                            <input id="size1" type="radio" name="radio1" value="1" checked>
+                                            <label for="size1">9</label>
+                                        </div>
+                                        <div class="form_radio_btn">
+                                            <input id="size1" type="radio" name="radio1" value="1">
+                                            <label for="size1">10</label>
+                                        </div>
+
+                                        <div class="form_radio_btn">
+                                            <input id="size1" type="radio" name="radio1" value="1">
+                                            <label for="size1">11</label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="size2" type="radio" name="radio1" value="2">
+                                            <label for="size2">12</label>
+                                        </div>
+                                         
+                                </div>
+                            </div>
+                                <div class="select-color">
+                                    <p>Color</p>
+                                    <div class="radio-color">
+                                        <div class="form_radio_btn">
+                                            <input id="color1" type="radio" name="radio2" value="1" checked>
+                                            <label for="color1"></label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="color2" type="radio" name="radio2" value="2">
+                                            <label for="color2""></label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="color3" type="radio" name="radio2" value="3">
+                                            <label for="color3"></label>
+                                        </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="footer-cart">
+                            <button class="in-bag">Add to bag <img src="photos/bag-cart.png" alt="bag"></button>
+                            <div class="stars">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/star.png" alt="star">
+                            </div>
+                        </div>
+                        
+                        </div>     
+                    </div>
+                </div>
+
+                <div class="container  buy-cart-munsell">
+                    <div class="buy-cart">
+                        <div class="image-cart munsell"><img src="photos/munsell-two.png" alt="Sneakers"></div>
+                        <div class="info-cart">
+                            <img class="close" src="photos/close.png" alt="">
+                            <div class="head-cart">
+                                <img src="photos/nb-logo.png" alt="logo">
+                                <div class="prices"><p class="price-now">$253.00</p><p class="price-earl">$300.00</p></div> 
+                            </div>
+                            <div class="name-cross">327’ Munsell White</div>
+                            <div class="descript">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Labore, temporibus. Debitis tempore soluta quisquam nostrum, exercitationem quia eos. Eos, sint?</div>
+                            <br>
+                            <div class="descript">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga tempora atque repudiandae temporibus, quod tempore odio doloremque soluta optio eligendi error, officia architecto porro est impedit numquam et recusandae incidunt voluptates! Nam necessitatibus sit quae natus ratione provident ducimus facere.</div>
+                            <div class="select">
+                                <div class="select-size">
+                                    <p>Size</p>
+                                    <div class="radio-size">
+                                        <div class="form_radio_btn">
+                                            <input id="size1" type="radio" name="radio1" value="1" checked>
+                                            <label for="size1">7</label>
+                                        </div>
+                                        <div class="form_radio_btn">
+                                            <input id="size1" type="radio" name="radio1" value="1">
+                                            <label for="size1">8</label>
+                                        </div>
+                                        <div class="form_radio_btn">
+                                            <input id="size1" type="radio" name="radio1" value="1">
+                                            <label for="size1">9</label>
+                                        </div>
+
+                                        <div class="form_radio_btn">
+                                            <input id="size1" type="radio" name="radio1" value="1">
+                                            <label for="size1">10</label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="size2" type="radio" name="radio1" value="2">
+                                            <label for="size2">11</label>
+                                        </div>
+                                         
+                                </div>
+                            </div>
+                                <div class="select-color">
+                                    <p>Color</p>
+                                    <div class="radio-color">
+                                        <div class="form_radio_btn">
+                                            <input id="color1" type="radio" name="radio2" value="1" checked>
+                                            <label for="color1"></label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="color2" type="radio" name="radio2" value="2">
+                                            <label for="color2""></label>
+                                        </div>
+                                         
+                                        <div class="form_radio_btn">
+                                            <input id="color3" type="radio" name="radio2" value="3">
+                                            <label for="color3"></label>
+                                        </div>
+                                </div>
+                            </div>
+                            
+                        </div>
+
+                        <div class="footer-cart">
+                            <button class="in-bag">Add to bag <img src="photos/bag-cart.png" alt="bag"></button>
+                            <div class="stars">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/star.png" alt="star">
+                                <img src="photos/empty_star.png" alt="star">
+                            </div>
+                        </div>
+                        
+                        </div>     
+                    </div>
+                </div>
+                
+                
+            </section>
+        </article>
+
+
+        <artcle class="big-text">
+            <strong> 
+                <span>Not</span> <img src="photos/for-text-cross1.png" alt="" class="n1">
+                <span>Just For</span>  <img src="photos/for-text-cross2.png" alt="" class="n2">
+                <span>Street Anymore</span> <img src="photos/for-text-cross3.png" alt="" class="n3">
+            </strong>
+        </artcle>
+
+        <article class="logotypes">
+                <div class="logo"><a href=""><img src="photos/nike-logo.png" alt=""></a></div>
+                <div class="logo"><a href=""><img src="photos/adidas-logo.png" alt=""></a></div>
+                <div class="logo"><a href=""><img src="photos/vans-logo.png" alt=""></a></div>
+                <div class="logo"><a href=""><img src="photos/nb-logo.png" alt=""></a></div>
+        </article>
+
+        <article class="pre-footer">
+              <div class="running"><img src="photos/just-do-it.png" alt=""><img src="photos/just-do-it.png" alt=""></div>
+             <div class="big-photo-footer" >
+                <h1>AIR MAX</h1>
+                <img src="photos/big-logo-nike.png" alt="" class="logo-nike-big">
+            </div>
+        </article>
+    </main>
+
+    <footer>
+           <div class="column-1">
+            <h2>Company</h2>
+            <ul>
+                <li><a href="">About</a></li>
+                <li><a href="">Careers</a></li>
+                <li><a href="">Mobile</a></li>
+            </ul>
+           </div>
+
+           <div class="column-2">
+            <h2>Contact</h2>
+            <ul>
+                <li><a href="">Help/FAQ</a></li>
+                <li><a href="">Press</a></li>
+                <li><a href="">Affilates</a></li>
+            </ul>
+           </div>
+
+           <div class="column-2">
+            <h2>More</h2>
+            <ul>
+                <li><a href="">My portfolio</a></li>
+                <li><a href="">Airline</a></li>
+                <li><a href="">Low fare tips</a></li>
+            </ul>
+           </div>
+    </footer>
+    <div class="created-by">
+        <p> The web-site was made by Anton Tsukanov for his portfolio</p>
+    </div>
+
+    <script src="script.js"></script>
+    </div>
+  
+       
+</body>
+</html>
